@@ -4,6 +4,8 @@
 # Customize only what you really need and notice that the core Pagy works also without any of the following lines.
 # Should you just cherry pick part of this file, please maintain the require-order of the extras
 
+require 'pagy/extras/navs'
+
 Rails.application.config.assets.paths << Pagy.root.join('javascripts')
 
 # Pagy DEFAULT Variables
