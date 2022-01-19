@@ -2,5 +2,5 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 
-import 'pagy'
-Pagy.init()
+// import 'pagy'
+// Pagy.init()
